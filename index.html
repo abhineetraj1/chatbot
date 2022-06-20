@@ -37,7 +37,6 @@
     left: 2vh;
     border: solid;
     border-radius: 15px;
-    width: 33%;
     height: 60vh;
   }
 </style>
@@ -48,6 +47,11 @@ function start_the_service() {
     var t  = document.createElement("div");
     var t2  = document.createElement("script");
     t.id = "chat";
+    if (window.innerWidth > window.innerHeight) {
+      t.style.width="33%";
+    } else {
+      t.style.width = "94%";
+    }
     t2.src="script/chat.js";
     document.body.appendChild(t);
     document.body.appendChild(t2);
