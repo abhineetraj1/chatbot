@@ -7,3 +7,17 @@
   padding: 1vh;
   margin: 1vh;
 }
+footer{
+  font-size: 3vh;
+  color: black;
+}
+header{
+  text-align: center;
+  background: black;
+  font-family: cursive;
+  font-size: 5vh;
+  color: white;
+  padding: 1h;
+  height: 7vh;
+  margin: 0vh;
+}
