@@ -8,6 +8,8 @@
   margin: 1vh;
 }
 footer{
+  position: absolute;
+  top: 90vh;
   font-size: 3vh;
   color: black;
 }
