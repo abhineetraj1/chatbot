@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Bot</title>
+  <link rel="shortcut icon" href="image/bot.png">
+  <!-- for mobile screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- stylesheets are conveniently separated into components -->
+  <link rel="stylesheet" media="all" href="style/setup.css">
+  <link rel="stylesheet" media="all" href="style/says.css">
+  <link rel="stylesheet" media="all" href="style/reply.css">
+  <link rel="stylesheet" media="all" href="style/typing.css">
+  <link rel="stylesheet" media="all" href="style/input.css">
+  <link rel="stylesheet" media="all" href="style/button.css">
+  <style>
+ 
+  .bubble-container {
+    height: 100vh;
+  }
+  .bubble-container .input-wrap textarea {
+    margin: 0;
+    width: calc(100% - 30px);
+  }
+  </style>
+</head>
+<body>
+
+<!-- container element for chat window -->
+<!--<div id="chat"></div>-->
+<button onclick="start_the_service()" id="mn-btn">Chat</button>
+<style type="text/css">
+  #chat{
+    position: absolute;
+    top: 7vh;
+    left: 2vh;
+    border: solid;
+    border-radius: 15px;
+    width: 33%;
+    height: 60vh;
+  }
+</style>
+<!-- import the JavaScript file -->
+<script src="script/Bubbles.js"></script>
+<script>
+function start_the_service() {
+    var t  = document.createElement("div");
+    var t2  = document.createElement("script");
+    t.id = "chat";
+    t2.src="script/chat.js";
+    document.body.appendChild(t);
+    document.body.appendChild(t2);
+}
+</script>
+</body>
