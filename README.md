@@ -5,7 +5,7 @@ A chatbot is software that simulates human-like conversations with users via tex
 
 ## Demo
 
-[link to demo]("https://abhineetraj1.github.io/chatbot")
+[link to demo](https://abhineetraj1.github.io/chatbot)
 
 
 ## 🛠 Languages used
