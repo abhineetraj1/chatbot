@@ -98,7 +98,7 @@ var convo = {
       }
     ]
   },
-  "Biology": {
+  "biology": {
     says: ["This subject is the study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behaviour, origin, and distribution."],
     reply: [
       {
