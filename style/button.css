@@ -1,11 +1,22 @@
+#chat{
+  position: absolute;
+  top: 15vh;
+  left: 2vh;
+  border: solid;
+  border-radius: 20px 20px 0px 0px;
+  height: 60vh;
+}
 #mn-btn{
+  position: absolute;
+  left: 68%;
+  width: 30%;
+  top: 90vh;
+  border-radius: 20px 20px 0px 0px;
   background: white;
   border: solid;
-  border-radius: 20px;
   font-size: 25px;
   font-family: cursive;
   padding: 1vh;
-  margin: 1vh;
 }
 footer{
   position: absolute;

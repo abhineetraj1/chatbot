@@ -29,34 +29,14 @@
 
 <!-- container element for chat window -->
 <!--<div id="chat"></div>-->
-<header>Abhineet Raj Chatbot</header>
+<header>Chatbot</header>
 <button onclick="start_the_service()" id="mn-btn">Chat</button>
-<style type="text/css">
-  #chat{
-    position: absolute;
-    top: 20vh;
-    left: 2vh;
-    border: solid;
-    border-radius: 15px;
-    height: 60vh;
-  }
-</style>
 <!-- import the JavaScript file -->
+<center>
+  <img src="image/bot1.png" style="height:40vh;margin: 10vh;">
+</center>
 <script src="script/Bubbles.js"></script>
-<script>
-function start_the_service() {
-    var t  = document.createElement("div");
-    var t2  = document.createElement("script");
-    t.id = "chat";
-    if (window.innerWidth > window.innerHeight) {
-      t.style.width="33%";
-    } else {
-      t.style.width = "94%";
-    }
-    t2.src="script/chat.js";
-    document.body.appendChild(t);
-    document.body.appendChild(t2);
-}
-</script>
-<a href="https://github.com/abhineetraj1"><footer>Made by Abhineet Raj</footer></a>
+<script type="text/javascript" src="script/button.js"></script>
+
+<a target="_blank" href="https://www.github.com/abhineetraj1"><footer>Made by Abhineet Raj</footer></a>
 </body>
